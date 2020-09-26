@@ -1,6 +1,7 @@
 // подключаю файл _varconf.sass в котором находятся объявленные переменные
 @import "../varconf/_varconf.sass"
 
+
 // import модулей bootstrap
 @import  "../../../gulp/node_modules/bootstrap/scss/bootstrap-reboot"
 @import  "../../../gulp/node_modules/bootstrap/scss/bootstrap-grid"
@@ -18,3 +19,7 @@
 @import  "../../../gulp/node_modules/mdbootstrap/scss/core/masks"
 @import  "../../../gulp/node_modules/mdbootstrap/scss/core/_typography"
 @import  "../../../gulp/node_modules/mdbootstrap/scss/core/_waves"
+
+//тут файлы стилей по секциям сайта - для лучшей отладки стилей
+@import "../section_sass/_header.sass"
+@import "../section_sass/_about_project.sass"
