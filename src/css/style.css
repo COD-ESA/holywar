@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "epilogue";
+  src: url("/fonts/epilogue/static/Epilogue-Bold.ttf"); }
+@font-face {
+  font-family: "epilogue_italic";
+  src: url("/fonts/epilogue/static/Epilogue-Italic.ttf"); }
+@font-face {
+  font-family: "epilogue_bold_italic";
+  src: url("/fonts/epilogue/static/Epilogue-BoldItalic.ttf"); }
+@font-face {
+  font-family: "passion-bold";
+  src: url("/fonts/passion/PassionOne-Bold.ttf"); }
+@font-face {
+  font-family: "passion-black";
+  src: url("/fonts/passion/PassionOne-Black.ttf"); }
+@font-face {
+  font-family: "passion-regular";
+  src: url("/fonts/passion/PassionOne-Regular.ttf"); }
 /*!
  * Bootstrap Reboot v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -14081,8 +14099,93 @@ strong {
 a.waves-effect, a.waves-light {
   display: inline-block; }
 
-body {
-  background: yellow;
-  color: black; }
+.header-fon {
+  background-image: url(../img/png/header-0.png);
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: 100% 100%;
+  padding: 0 0;
+  width: 98vw;
+  height: 100vh; }
+  .header-fon h1 {
+    font-family: "passion-bold";
+    font-size: 8em; }
 
-/*# sourceMappingURL=../sass/maps/style.css.map */
+.header-war {
+  position: absolute;
+  position: center bottom;
+  bottom: 0;
+  background-image: url(../img/png/header-2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 60vh; }
+  .header-war h1 {
+    font-family: "passion-black";
+    font-size: 2em; }
+  .header-war .nav-link {
+    color: yellow; }
+    .header-war .nav-link:hover {
+      color: white; }
+
+.note-reklama h3 {
+  font-family: "passion-regular"; }
+.note-reklama h1 {
+  font-family: "passion-black"; }
+
+.txt-reklama1 {
+  font-family: "epilogue_italic";
+  font-size: 1.1em;
+  line-height: 0.9em; }
+
+.txt-reklama2 {
+  line-height: 0.8em; }
+
+.cicle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  border: 1px solid yellow;
+  border-radius: 50% 50%;
+  width: 50px;
+  height: 50px; }
+
+.feature {
+  font-family: "epilogue"; }
+  .feature hr {
+    width: 165px;
+    height: 0.01em;
+    left: 130px;
+    background-color: #3F729B; }
+
+.line {
+  height: 1px;
+  visibility: hidden;
+  transition: all 2s; }
+
+.a-link:hover .line {
+  visibility: visible; }
+
+.futur {
+  width: inherit; }
+
+.p-font {
+  font-family: "epilogue_italic"; }
+
+.titly-card {
+  font-family: "passion-black"; }
+
+.no-border {
+  border: none; }
+
+.provided-fon {
+  background-image: url(../img/png/Layer\ 25.png);
+  background-size: 100% 100%;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  height: 60vh; }
+
+.card-background-none {
+  background-color: transparent; }
+
+/*# sourceMappingURL=style.css.map */
